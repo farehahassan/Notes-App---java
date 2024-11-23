@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_margin="10dp"
+     app:cardCornerRadius="6dp"
+     app:cardElevation="2dp"
+     android:clickable="true"
+     android:foreground="?attr/selectableItemBackground"
+     android:layout_height="110dp">
+
+     <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+<LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+>
+
+     <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="16dp"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:textColor="@color/deep_blue"
+          android:id="@+id/tvTitle"
+          android:text="Fareha"/>
+
+     <TextView
+          android:layout_marginRight="20dp"
+
+          android:maxLines="3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:layout_marginLeft="16dp"
+          android:textSize="14dp"
+          android:textStyle="normal"
+          android:textColor="@color/black"
+          android:id="@+id/tvDesc"
+          android:text="ousyhofiysofyosiuofsuiofuosfiosuofi soifoisoifu iusouoisuoiusoiugoiu"/>
+
+
+
+
+</LinearLayout>
+     </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

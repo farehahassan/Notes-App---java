@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/main"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     tools:context=".MainActivity">
+
+
+
+
+     <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="25dp"
+          android:layout_marginLeft="25dp"
+          android:text="Notes"
+          android:id="@+id/notesTv"
+          android:textSize="22sp"
+          android:textStyle="bold"
+          android:textColor="@color/deep_blue"/>
+
+
+
+     <androidx.recyclerview.widget.RecyclerView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/recyclerView"
+          android:layout_below="@id/notesTv"
+          android:layout_marginTop="10dp"
+
+          />
+
+
+
+
+
+     <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:layout_width="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginBottom="50dp"
+          android:layout_marginRight="25sp"
+          android:id="@+id/floatingId"
+          android:clickable="true"
+          android:foreground="?attr/selectableItemBackground"
+          android:layout_height="wrap_content"
+          android:src="@drawable/baseline_access_alarm_24"
+          android:tint="@color/white"
+          android:backgroundTint="@color/deep_blue"
+          />
+
+
+
+
+
+</RelativeLayout>
